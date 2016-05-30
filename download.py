@@ -8,7 +8,7 @@ site = "http://www.youtube-mp3.org/" #do not change
 searchBox = "youtube-url" #do not change
 searchButton = "submit" #do not change
 downButton = ".//*[@id='dl_link']/a[3]/b"
-youtube = str(sys.argv[1])
+youtube = input("Paste URL: ")
 #====================================================
 def downloadMusic(url):
     browser = webdriver.Firefox()

@@ -1,1 +1,1 @@
-download.py %1
+download.py
